@@ -1,0 +1,32 @@
+bash easyYoutubeDL.sh -t video -q highest -s en -f ls.txt  ##高品质视频下载
+bash easyYoutubeDL.sh -t audio -f ls.txt                   ##高品质音频下载
+bash easyYoutubeDL.sh -t hls -q best -f ls.txt             ##hls格式下载
+
+start comment
+bash easyYoutubeDL.sh -t video -q highest -s en -f ls.txt
+bash easyYoutubeDL.sh -t audio -f ls.txt
+bash easyYoutubeDL.sh -t hls -q best -f ls.txt
+
+-t type - default video - for example video, music, hls, audio (only best audio)
+
+-q quality (optional) - default highest - for example best, highest, audio (only best audio)
+
+-s subtitle (optional) - for example en, fa, fr, ar, sp and ...
+
+-m max file size (optional) - default 2g - for example 100k, 100m ...
+
+-p path (optional) - default current path - for example ~/Downloads
+
+-f input file (sample of the file is available in the repository)
+
+youtube channel sample https://www.youtube.com/channel/id
+youtube playlist sample https://www.youtube.com/playlist?list=id
+youtube video sample https://www.youtube.com/watch?v=id
+
+ls.txt:
+https://www.youtube.com/channel/UCxbd5nlCc3nyA1dSRo3cQTw
+https://www.youtube.com/channel/UCxbd5nlCc3nyA1dSRo3cQTw
+https://www.youtube.com/playlist?list=PLGG9UBpkoPn1F1VXPwmn4nqSP5XpGzJqW
+https://www.youtube.com/playlist?list=PL3Y-E4YSE4wb3dJHdB6qinRiT-tNsMkhM
+https://www.youtube.com/watch?v=0GS2rxROcPo
+end
